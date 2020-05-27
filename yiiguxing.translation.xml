@@ -1,0 +1,17 @@
+<application>
+  <component name="AppStorage">
+    <histories>
+      <item value="maven-jar-plugin:2.5 or one of its dependencies could not be resolved: Cannot access central (http://git1.pansoft.com:8081/repository/maven-public/) in offline mode and the artifact org.apache.maven.plugins:maven-jar-plugin:jar:2.5 has not been downloaded from it before. -&gt; [Help 1]" />
+      <item value="has not been downloaded from it before" />
+      <item value="Connection refused: connect" />
+      <item value="FXJG ZZBH" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="2" />
+        <entry key="ENGLISH" value="3" />
+        <entry key="HINDI" value="1" />
+      </map>
+    </option>
+  </component>
+</application>
