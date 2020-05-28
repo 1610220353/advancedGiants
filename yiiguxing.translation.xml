@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="send IM Event Message" />
+      <item value="Agent" />
       <item value="create Message" />
       <item value="name is already used by an existing object" />
       <item value="is Terminated" />
@@ -12,8 +14,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="7" />
-        <entry key="ENGLISH" value="8" />
+        <entry key="CHINESE" value="9" />
+        <entry key="ENGLISH" value="10" />
         <entry key="HINDI" value="1" />
       </map>
     </option>
