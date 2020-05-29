@@ -38,9 +38,17 @@
           <option name="url" value="http://git1.pansoft.com/xweb/base/spring/fmis-system.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://git1.pansoft.com/xcloud/bladex.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://git1.pansoft.com/xweb/tyjm/spring/tyjm-web.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="E:\idea\reports" />
+    <option name="cloneParentDir" value="E:\idea\tyjm" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COLUMN_ORDER">
