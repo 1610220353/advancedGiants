@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="socket write error" />
       <item value="Sneaky Throws" />
       <item value="send IM Event Message" />
       <item value="Agent" />
@@ -15,8 +16,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="10" />
-        <entry key="ENGLISH" value="11" />
+        <entry key="CHINESE" value="11" />
+        <entry key="ENGLISH" value="12" />
         <entry key="HINDI" value="1" />
       </map>
     </option>
