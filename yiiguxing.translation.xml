@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="authorization code" />
+      <item value="You can modify this file. but I will remove any modification of yours and replace the whole file with mine." />
       <item value="socket write error" />
       <item value="Sneaky Throws" />
       <item value="send IM Event Message" />
@@ -16,8 +18,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="11" />
-        <entry key="ENGLISH" value="12" />
+        <entry key="CHINESE" value="13" />
+        <entry key="ENGLISH" value="14" />
         <entry key="HINDI" value="1" />
       </map>
     </option>
