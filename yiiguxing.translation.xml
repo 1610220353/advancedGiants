@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Data source rejected establishment of connection, message from server: &quot;Too many connections&quot;" />
       <item value="client credentials" />
       <item value="authorization code" />
       <item value="You can modify this file. but I will remove any modification of yours and replace the whole file with mine." />
@@ -20,7 +21,7 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="15" />
-        <entry key="ENGLISH" value="15" />
+        <entry key="ENGLISH" value="16" />
         <entry key="HINDI" value="1" />
       </map>
     </option>
