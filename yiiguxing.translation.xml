@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="slow Equals" />
+      <item value="hex" />
+      <item value="encrypt" />
       <item value="Data source rejected establishment of connection, message from server: &quot;Too many connections&quot;" />
       <item value="client credentials" />
       <item value="authorization code" />
@@ -20,8 +23,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="15" />
-        <entry key="ENGLISH" value="16" />
+        <entry key="CHINESE" value="18" />
+        <entry key="ENGLISH" value="19" />
         <entry key="HINDI" value="1" />
       </map>
     </option>
