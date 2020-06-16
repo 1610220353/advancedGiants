@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="set Select Client Details Sql" />
+      <item value="set Find Client Details Sql" />
+      <item value="Enable Authorization Server" />
+      <item value="Enable Configuration Properties" />
       <item value="B Crypt Password Encoder" />
       <item value="默认" />
       <item value="Authority Utils" />
@@ -31,8 +35,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="25" />
-        <entry key="ENGLISH" value="26" />
+        <entry key="CHINESE" value="29" />
+        <entry key="ENGLISH" value="30" />
         <entry key="HINDI" value="1" />
       </map>
     </option>
