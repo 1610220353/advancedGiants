@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="B Crypt Password Encoder" />
       <item value="默认" />
       <item value="Authority Utils" />
       <item value="comma Separated String To Authority List" />
@@ -31,7 +32,7 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="25" />
-        <entry key="ENGLISH" value="25" />
+        <entry key="ENGLISH" value="26" />
         <entry key="HINDI" value="1" />
       </map>
     </option>
