@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Configuration Properties" />
+      <item value="Lookup method resolution failed;" />
       <item value="set Select Client Details Sql" />
       <item value="set Find Client Details Sql" />
       <item value="Enable Authorization Server" />
@@ -35,8 +37,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="29" />
-        <entry key="ENGLISH" value="30" />
+        <entry key="CHINESE" value="31" />
+        <entry key="ENGLISH" value="32" />
         <entry key="HINDI" value="1" />
       </map>
     </option>
