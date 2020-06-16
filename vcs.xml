@@ -54,9 +54,13 @@
           <option name="url" value="http://git1.pansoft.com/xweb/tyjm/spring/cas-server.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitee.com/felord/security-learning.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="E:\idea\tyjm" />
+    <option name="cloneParentDir" value="E:\idea" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COLUMN_ORDER">
