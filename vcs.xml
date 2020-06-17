@@ -94,6 +94,10 @@
           <option name="url" value="http://git1.pansoft.com/xweb/businessmodel/spring/businessmodel-analyze-core.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://git1.pansoft.com/xweb/businessmodel/spring/businessmodel-complex-util.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="E:\idea\spring" />
