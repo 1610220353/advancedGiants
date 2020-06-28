@@ -1,0 +1,11 @@
+<application>
+  <component name="libraryTable">
+    <library name="tomcat-jni">
+      <CLASSES>
+        <root url="jar://E:/apache-tomcat-8.5.42/lib/tomcat-jni.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+  </component>
+</application>
