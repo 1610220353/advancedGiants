@@ -49,6 +49,8 @@ public class StringDome {
         Random random = new Random();
         System.out.println(random.nextInt(1000000));
         System.out.println(Math.random() * 100000);
+        StringBuffer stringBuffer = new StringBuffer("ahsj");
+        stringBuffer.append("a");
 
     }
 }
