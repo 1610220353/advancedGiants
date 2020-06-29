@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="new Proxy Instance" />
       <item value="Prepare this context for refreshing." />
       <item value="源码" />
       <item value="get Parent Name" />
@@ -50,12 +51,11 @@
       <item value="send IM Event Message" />
       <item value="Agent" />
       <item value="create Message" />
-      <item value="name is already used by an existing object" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="56" />
-        <entry key="ENGLISH" value="57" />
+        <entry key="CHINESE" value="57" />
+        <entry key="ENGLISH" value="58" />
         <entry key="HINDI" value="1" />
       </map>
     </option>
