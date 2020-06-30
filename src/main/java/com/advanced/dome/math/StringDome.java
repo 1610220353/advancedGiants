@@ -10,7 +10,7 @@ import java.util.Random;
 public class StringDome {
 
 
-    public static void main(String[] args) {
+    public  void main1(String[] args) {
         String dome1 = "1d.om.e.1";
         String dome2 = "dome2";
 
@@ -51,6 +51,15 @@ public class StringDome {
         System.out.println(Math.random() * 100000);
         StringBuffer stringBuffer = new StringBuffer("ahsj");
         stringBuffer.append("a");
+
+    }
+
+    public static void main(String[] args) {
+        String a = "a";
+        String b = new String("a");
+        String c = "a";
+        System.out.println(a.equals(c));
+        System.out.println(a==c);
 
     }
 }
