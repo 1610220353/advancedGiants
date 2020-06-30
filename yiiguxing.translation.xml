@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="属性" />
+      <item value="反射" />
       <item value="列" />
       <item value="动态" />
       <item value="new Proxy Instance" />
@@ -49,13 +51,11 @@
       <item value="authorization code" />
       <item value="You can modify this file. but I will remove any modification of yours and replace the whole file with mine." />
       <item value="socket write error" />
-      <item value="Sneaky Throws" />
-      <item value="send IM Event Message" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="59" />
-        <entry key="ENGLISH" value="59" />
+        <entry key="CHINESE" value="61" />
+        <entry key="ENGLISH" value="61" />
         <entry key="HINDI" value="1" />
       </map>
     </option>
