@@ -1,6 +1,18 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="get Fields" />
+      <item value="No Such Field Exception" />
+      <item value="Can not set java.lang.String field com.advanced.dome.util.Car.name to java.lang.Class" />
+      <item value="Can not set java.lang.String field com.advanced.dome.util.Car.name to java.lang.String" />
+      <item value="n not set java.lang.String field com.advanced.dome.util.Car.name to java.lang.String" />
+      <item value="成员变量" />
+      <item value="get Constructors" />
+      <item value="获取构造方法" />
+      <item value="属性" />
+      <item value="反射" />
+      <item value="列" />
+      <item value="动态" />
       <item value="new Proxy Instance" />
       <item value="Prepare this context for refreshing." />
       <item value="源码" />
@@ -39,23 +51,11 @@
       <item value="An internal error occurred while trying to authenticate the user" />
       <item value="An internal error occurred while trying to authenticate the user." />
       <item value="Push develop to origin/develop was rejected by remote" />
-      <item value="slow Equals" />
-      <item value="hex" />
-      <item value="encrypt" />
-      <item value="Data source rejected establishment of connection, message from server: &quot;Too many connections&quot;" />
-      <item value="client credentials" />
-      <item value="authorization code" />
-      <item value="You can modify this file. but I will remove any modification of yours and replace the whole file with mine." />
-      <item value="socket write error" />
-      <item value="Sneaky Throws" />
-      <item value="send IM Event Message" />
-      <item value="Agent" />
-      <item value="create Message" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="57" />
-        <entry key="ENGLISH" value="58" />
+        <entry key="CHINESE" value="67" />
+        <entry key="ENGLISH" value="68" />
         <entry key="HINDI" value="1" />
       </map>
     </option>
