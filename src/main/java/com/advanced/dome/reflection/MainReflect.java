@@ -4,7 +4,6 @@ import com.advanced.dome.util.Car;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
-import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.Arrays;
 
@@ -22,13 +21,13 @@ public class MainReflect {
      */
     private void getClazz() {
         try {
-//            Class<?> aClass = Class.forName("com.advanced.dome.util.Car");
-//            System.out.println(Car.class);
+            Class<?> aClass = Class.forName("com.advanced.dome.util.Car");
+            System.out.println(Car.class);
             Car car = new Car();
-            Class<? extends Car> aClass = car.getClass();
-//            System.out.println(aClass);
-//            System.out.println(aClass);
-//            System.out.println(car.getClass() == aClass);
+            Class<? extends Car> aClazz = car.getClass();
+            System.out.println(aClass);
+            System.out.println(aClass);
+            System.out.println(car.getClass() == aClass);
             //class常用方法
             //String getName() 获取全类名
             //ClassLoader getClassLoader() 返回类的类加载器。
@@ -46,7 +45,7 @@ public class MainReflect {
     }
 
     /**
-     * 获取对象
+     * 获取对象--字段
      *
      * @throws NoSuchFieldException
      */
@@ -59,19 +58,19 @@ public class MainReflect {
 
         //获取对象的全部public修饰的对象
         Field[] fields = aClass.getFields();
+        System.out.println(Arrays.toString(fields));
         //获取指定名称 由public修饰的对象
-//        System.out.println(Arrays.toString(fields));
         Field name = aClass.getField("name");
-//        System.out.println(name);
+        System.out.println(name);
         name.set(car, "ceshi");
         System.out.println(car);
         //获取对象的全部对象，不考虑修饰符
         Field[] declaredFields = aClass.getDeclaredFields();
-//        System.out.println(Arrays.toString(declaredFields));
+        System.out.println(Arrays.toString(declaredFields));
 
         //通过名称获取对象不考虑修饰符
         Field length = aClass.getDeclaredField("length");
-//        System.out.println(length);
+        System.out.println(length);
 
     }
 
