@@ -4,13 +4,18 @@ package com.advanced.dome.util;
  * @author guohong
  */
 
-public class Car {
+public class Car implements CarInterface{
 
-    private String name;
+    public String name;
     private String length;
     private String width;
     private String height;
     private Wheel wheel;
+
+    public Car(String name) {
+    }
+    public Car() {
+    }
 
     public String getName() {
         return name;
@@ -50,5 +55,16 @@ public class Car {
 
     public void setWheel(Wheel wheel) {
         this.wheel = wheel;
+    }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "name='" + name + '\'' +
+                ", length='" + length + '\'' +
+                ", width='" + width + '\'' +
+                ", height='" + height + '\'' +
+                ", wheel=" + wheel +
+                '}';
     }
 }
