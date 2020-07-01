@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="成员变量" />
+      <item value="get Constructors" />
+      <item value="获取构造方法" />
       <item value="属性" />
       <item value="反射" />
       <item value="列" />
@@ -48,14 +51,11 @@
       <item value="encrypt" />
       <item value="Data source rejected establishment of connection, message from server: &quot;Too many connections&quot;" />
       <item value="client credentials" />
-      <item value="authorization code" />
-      <item value="You can modify this file. but I will remove any modification of yours and replace the whole file with mine." />
-      <item value="socket write error" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="61" />
-        <entry key="ENGLISH" value="61" />
+        <entry key="CHINESE" value="63" />
+        <entry key="ENGLISH" value="63" />
         <entry key="HINDI" value="1" />
       </map>
     </option>
