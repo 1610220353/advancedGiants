@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="get Fields" />
       <item value="No Such Field Exception" />
       <item value="Can not set java.lang.String field com.advanced.dome.util.Car.name to java.lang.Class" />
       <item value="Can not set java.lang.String field com.advanced.dome.util.Car.name to java.lang.String" />
@@ -50,12 +51,11 @@
       <item value="An internal error occurred while trying to authenticate the user" />
       <item value="An internal error occurred while trying to authenticate the user." />
       <item value="Push develop to origin/develop was rejected by remote" />
-      <item value="slow Equals" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="66" />
-        <entry key="ENGLISH" value="67" />
+        <entry key="CHINESE" value="67" />
+        <entry key="ENGLISH" value="68" />
         <entry key="HINDI" value="1" />
       </map>
     </option>
