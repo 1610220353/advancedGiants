@@ -1,6 +1,7 @@
 package com.advanced.dome.redis;
 
-import redis.clients.jedis.Jedis;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * redis 测试类
@@ -8,12 +9,14 @@ import redis.clients.jedis.Jedis;
 public class RedisDome {
 
     public static void main(String[] args) {
-        Jedis jedis = new Jedis("127.0.0.1",6379);
 
-        //使用redis命令
-        jedis.ping();
-        jedis.set("k1", "v1");
-        System.out.println(jedis.get("k1"));
+
+//        System.out.println(RedisUtils.setKv("k1",100,"a"));
+
+        Map<String,String> map = new HashMap<>();
+        map.put("k1","234");
+        map.put("haha","sdg");
+        System.out.println(RedisUtils.getHashAllKey("test"));
 
 
     }
