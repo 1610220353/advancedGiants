@@ -26,7 +26,7 @@ public class ThreadPoolExecutorDemo {
      */
     private static final Long KEEP_ALIVE_TIME = 1L;
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         //使用阿里巴巴推荐的创建线程池的方式
         // 通过ThreadPoolExecutor构造函数 自定义参数创建
         //corePoolSize: 核心线程数为 5。
@@ -41,14 +41,18 @@ public class ThreadPoolExecutorDemo {
                 new ArrayBlockingQueue<Runnable>(QUEUE_CAPACITY),
                 new ThreadPoolExecutor.CallerRunsPolicy()
         );
-        for (int i = 0; i < MAX_POOL_SIZE; i++) {
+        for (int i = 0; i < 10; i++) {
             Runnable worker = new MyRunnable("" + i);
 
             executor.execute(worker);
 
         }
+        executor.wait();
         //终止线程池
         executor.shutdown();
+
+        System.out.println("测试---------------------------------------");
+
 
 
     }

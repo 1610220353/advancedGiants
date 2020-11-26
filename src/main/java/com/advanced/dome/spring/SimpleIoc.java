@@ -26,7 +26,7 @@ import java.util.logging.Logger;
 public class SimpleIoc {
     private Map<String,Object> beanMap = new HashMap<>();
 
-    private Logger logger = Logger.getLogger("SimpleIoc");
+//    private Logger logger = Logger.getLogger("SimpleIoc");
 
     public Object getBean(String name) {
         Object bean = beanMap.get(name);
@@ -59,7 +59,7 @@ public class SimpleIoc {
                 //获取xml中的内容
                 String id = ele.getAttribute("id");
                 String aClass = ele.getAttribute("class");
-                logger.info( "读取xml文件----> id为："+id +"----------------" + "class 为：" +aClass);
+//                logger.info( "读取xml文件----> id为："+id +"----------------" + "class 为：" +aClass);
 
                 //通过反射获取bean的 位置
                 Class beanClass = null;

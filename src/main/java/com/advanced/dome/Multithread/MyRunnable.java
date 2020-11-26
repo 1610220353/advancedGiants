@@ -17,9 +17,9 @@ public class MyRunnable implements Runnable{
 
     @Override
     public void run() {
-        System.out.println(Thread.currentThread().getName() + " Start. Time = " + new Date());
+//        System.out.println(Thread.currentThread().getName() + " Start. Time = " + new Date());
         processCommand();
-        System.out.println(Thread.currentThread().getName() + " End. Time = " + new Date());
+//        System.out.println(Thread.currentThread().getName() + " End. Time = " + new Date());
     }
 
     /**
@@ -27,8 +27,10 @@ public class MyRunnable implements Runnable{
      */
     public void processCommand() {
 
+
         try {
-            Thread.sleep(10000);
+            System.out.println("测试" + command);
+            Thread.sleep(100);
 
         } catch (InterruptedException e) {
             e.printStackTrace();

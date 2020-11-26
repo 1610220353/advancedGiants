@@ -1,6 +1,7 @@
 package com.advanced.dome.redis;
 
 import redis.clients.jedis.Jedis;
+import redis.clients.jedis.Pipeline;
 
 import java.util.Map;
 import java.util.Set;
@@ -19,6 +20,7 @@ public class RedisUtils {
      */
     public static Set<String> getHashAllKey(String name) {
         Jedis jedis = null;
+        Pipeline pipelined = jedis.pipelined();
         try {
             jedis = MyRedisPool.getReadJadesObject();
             return jedis.hkeys(name);
